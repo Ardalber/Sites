@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+}
+
+#main{
+background-color: #68c3c1;
+height: 500px;
+width: 500px;
+border-radius: 30px;
+}
+
+#input-players{
+background-color: rgb(82, 174, 109);
+height: 200px;
+width: 400px;
+border-radius: 10px;
+margin: 50px;
+display: flex;
+flex-direction: row;
+}
+
+#select{
+
+    background-color: green;
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+   margin: auto;
+   
+    }
+    
+
+#container-button{
+
+text-align: center;
+
+}
+
+#click-button{
+
+    width: 75px;
+    height: 75px;
+}
+#start{
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+   margin-left: 210px;
+   margin-top: 25px;
+   font-size: 22px;
+}
