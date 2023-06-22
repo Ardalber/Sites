@@ -1,0 +1,35 @@
+.general{
+
+    border: 1px solid black;
+    width: 100%;
+    height:auto;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: raw;
+    background-color: rgb(235, 216, 10);
+    
+}
+
+.info{
+
+height: 10%;
+background-color: red;
+}
+
+
+img{
+
+width: 40%;
+height: auto;
+border-radius: 50% / 40%;
+}
+
+.another-color{
+
+    background-color: orange;
+}
+.another-color2{
+
+    background-color: white;
+}

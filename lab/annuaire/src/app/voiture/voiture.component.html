@@ -1,0 +1,10 @@
+<div class="general" [ngClass]="{'another-color': newCar.client == false }">
+    <img [src]='newCar.img' *ngIf="newCar.img !== ''">
+    <ul>
+        <li> {{newCar.marque}} </li>
+        <li> {{newCar.couleur}} </li>
+        <li> {{newCar.poids}} </li>
+        <li>{{newCar.modele}}</li>
+        <li> {{newCar.dateDachat}}</li>
+    </ul>
+</div>

@@ -1,0 +1,26 @@
+.main{
+
+    border: 1px solid black;
+    width: 350px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 216, 10);
+    
+}
+#picture{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+margin: auto;
+}
+#name{
+    color: white;
+    margin: auto;
+text-align: center;
+font-size: 30px;
+font-style: bolder;
+
+}
