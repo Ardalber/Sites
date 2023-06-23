@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export default class AppComponent {
-  title = 'annuaire';
+export class AppComponent {
+  title = 'site-e-commerce';
 }

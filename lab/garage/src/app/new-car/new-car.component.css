@@ -1,0 +1,20 @@
+.main{
+
+display: flex;   
+    height:200px;
+    width: 500px;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+.liste{
+    width: 100%;
+}
+
+#elem-liste{
+
+width: 200px;
+}
+
+#image{
+border-radius: 0 15px 15px 0;
+}

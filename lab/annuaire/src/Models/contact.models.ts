@@ -4,4 +4,5 @@ export class ContactModel {
     age!: number;
     url!: string;
     client!: boolean;
+
 }

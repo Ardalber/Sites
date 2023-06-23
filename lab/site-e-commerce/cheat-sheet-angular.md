@@ -12,7 +12,7 @@ CREATION D'UN COMPOSANT:  - ng g c [nom du composant]
                                         -un pour executer les ligne de commandes angular
 
 # 3 creation d'un composant:    - ng g c [nom du composant]
-                              - ajouter le composant dans app.component.html<NomDuComposant> 
+                              - ajouter le composant dans app.component.   html<NomDuComposant> 
 
 # 4 creation d'une classe
             - créer un dossier model dans src
@@ -40,3 +40,27 @@ CYRIL approuved
 # 9 ajouter  @Input() coordonnee!: ContactModel; avec ContactModel qui est la classe parente
 
  
+
+
+--------------------------------------------------------------------------
+
+- créer projet 
+   ng new [nom du projet]
+
+- lancer le serveur
+    ng serve ou ng serve -o pour le lancer directement
+
+- tout supprimer dans le html général
+
+- créer un dossir model
+    - créer un modèle
+    - on peut 'injecter' un modèle dans un autre en déclarant une variable 
+
+-     
+
+
+# service 
+: permet de récupérer des données, il y a plusieurs types de services 
+    - http
+
+    

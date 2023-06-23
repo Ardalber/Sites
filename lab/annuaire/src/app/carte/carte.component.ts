@@ -10,6 +10,8 @@ export class CarteComponent implements OnInit {
   @Input() coordonnee!: ContactModel;
 
   ngOnInit() {
+
+
   }
 
 
