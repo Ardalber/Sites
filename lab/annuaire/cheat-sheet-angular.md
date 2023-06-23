@@ -60,43 +60,16 @@ CYRIL approuved
 
 
 # service 
-: permet de récupérer des données, il y a plusieurs types de services 
-    - http
 
     
 
 
-    - créer le service
-    - deplacer le tableau dans services
-    - créer une fonction dasn services qui liste les contacts
-    - composant liste : appel au service
 
 
-       this.tab = [
+ 
 
-      {
-        name: "benny",
-        lastName: "Hill",
-        age: 25,
-        url: 'assets/images/bennyHill.jpeg',
-        client: false
-      },
-      {
-        name: "marcel",
-        lastName: "Cerdan",
-        age: 30,
-        url: 'assets/images/marcelCerdan.jpeg',
-        client: false
+ creation d'une fonction das le service pour recup un elme avec son ID
+ creer un nouveau composant pour afficher 
+ modif app.compo pour afficher ce compo
+ lier le nouveau compo et le service
 
-      },
-
-      {
-        name: "serge",
-        lastName: "Benamou",
-        age: 56,
-        url: 'assets/images/sergeBenamou.jpeg',
-        client: true
-
-
-      }
-    ]

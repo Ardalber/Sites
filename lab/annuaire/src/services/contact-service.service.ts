@@ -12,14 +12,16 @@ export class ContactServiceService {
       lastName: "Hill",
       age: 25,
       url: 'assets/images/bennyHill.jpeg',
-      client: false
+      client: false,
+      id: 0
     },
     {
       name: "marcel",
       lastName: "Cerdan",
       age: 30,
       url: 'assets/images/marcelCerdan.jpeg',
-      client: false
+      client: false,
+      id: 1
 
     },
 
@@ -28,7 +30,8 @@ export class ContactServiceService {
       lastName: "Benamou",
       age: 56,
       url: 'assets/images/sergeBenamou.jpeg',
-      client: true
+      client: true,
+      id: 2
 
 
     },
@@ -42,7 +45,6 @@ export class ContactServiceService {
     return this.tabContact;
 
   }
-
 
 }
 
