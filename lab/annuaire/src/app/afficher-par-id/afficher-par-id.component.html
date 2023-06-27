@@ -1,0 +1,13 @@
+<main>
+    <section class="section-details">
+        <p> prénom : {{details.name}} </p>
+        <p> nom : {{details.lastName}} </p>
+        <p> age : {{details.age}} </p>
+        <p> client? : {{details.client}} </p>
+        <p> identifiant : {{details.id}} </p>
+    </section>
+    <div class="container-image">
+
+        <img class="image" [src]='details.url' *ngIf="details.url !== ''">
+    </div>
+</main>

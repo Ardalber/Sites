@@ -1,0 +1,37 @@
+p{
+
+text-align: center;
+
+
+}
+img{
+    border-radius: 15px;
+
+    height: 80%;
+}
+
+main{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.section-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    width: 250px;
+    background-color: rgb(100, 185, 143);
+}
+img{
+margin-top: 25px;
+margin-left: 25px;
+width: 250px;
+height: 250px;
+}
+.container-image{
+    border-radius: 15px;
+    width: 300px;
+    background-color: aqua;
+}

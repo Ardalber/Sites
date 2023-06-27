@@ -11,7 +11,7 @@ export class ContactServiceService {
       name: "benny",
       lastName: "Hill",
       age: 25,
-      url: 'assets/images/bennyHill.jpeg',
+      url: 'assets/images/benny-hill.jpeg',
       client: false,
       id: 0
     },
@@ -19,7 +19,7 @@ export class ContactServiceService {
       name: "marcel",
       lastName: "Cerdan",
       age: 30,
-      url: 'assets/images/marcelCerdan.jpeg',
+      url: 'assets/images/marcel-cerdan.jpeg',
       client: false,
       id: 1
 
@@ -29,7 +29,7 @@ export class ContactServiceService {
       name: "serge",
       lastName: "Benamou",
       age: 56,
-      url: 'assets/images/sergeBenamou.jpeg',
+      url: 'assets/images/serge-benamou.jpeg',
       client: true,
       id: 2
 
@@ -46,6 +46,17 @@ export class ContactServiceService {
 
   }
 
+
+  affDetails(id: number): ContactModel {
+    for (let i = 0; i < this.tabContact.length; i++) {
+
+      if (this.tabContact[i].id === id) {
+
+        return this.tabContact[i];
+      }
+    }
+    return new ContactModel();
+
+  }
+
 }
-
-

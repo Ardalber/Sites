@@ -10,20 +10,23 @@ export class LesProduitsService {
     {
       name: "gateaux",
       price: 100,
-      available: false
+      available: false,
+      id: 0
 
     },
     {
 
       name: "palinka",
       price: 250,
-      available: true
+      available: true,
+      id: 1
     },
     {
 
       name: "écran",
       price: 349876,
-      available: false
+      available: false,
+      id: 2
 
     }
   ];
@@ -32,4 +35,5 @@ export class LesProduitsService {
 
     return this.tabProduit;
   }
+
 }

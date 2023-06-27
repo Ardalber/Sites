@@ -13,6 +13,8 @@ export class ListeContactsComponent implements OnInit {
 
 
     this.tab = this.peuImporte.listerContacts();
+
+
   }
 
 };
