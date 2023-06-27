@@ -1,6 +1,0 @@
-Exercice du jour :
-Afficher le détail d'un contact
-1) Modifier le service : ajouter une nouvelle fonction qui récupère un élément du tableau à partir de son id
-2) Créer un nouveau composant Détail qui affiche le contenu exhaustif d'un contact
-3) Modifier le AppComponent pour afficher ce détail et non la liste
-4) Etablir le lien entre le service et le nouveau composant
